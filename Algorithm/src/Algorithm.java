@@ -1,14 +1,14 @@
 
 public class Algorithm {
 	public static void main(String[] args) {
-		int[] input0 = new int[] {2};
+		int[] input0 = new int[] {2, 2, 0, 1, 3, 1, 7};
 		int[] input1 = new int[] {1,1};
 		int[] input2 = new int[] {1, 2, 1, 4, 2};
 		int[] input3 = new int[] {1};
 		int[] input4 = new int[] {1, 1, 9};
 		
 		System.out.println(pizza(input0));
-			System.out.println(pizza(input1));
+		System.out.println(pizza(input1));
 		System.out.println(pizza(input2));
 		System.out.println(pizza(input3));
 		System.out.println(pizza(input4));
